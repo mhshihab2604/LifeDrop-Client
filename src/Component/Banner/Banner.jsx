@@ -1,26 +1,3 @@
-// const Banner = () => {
-//     return (
-//         <div>
-//             <div className="flex flex-col md:flex-row items-center justify-between min-h-[300px] bg-white">
-//                 <div className="w-full md:w-1/2 h-64 bg-gradient-to-b from-[#B32346] to-[#6A0B37] rounded-br-[100%] shadow-lg" />
-//                     <div className="w-full md:w-1/2 p-8 text-center md:text-left">
-//                         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-//                         Save Life Donate <br /> <span className="text-gray-900">Blood</span>
-//                         </h2>
-//                         <p className="text-sm text-gray-600 mb-6">
-//                         Lorem Ipsum is simply dummy text of the printing and typesetting industry...
-//                         </p>
-//                         <button className="bg-black text-white font-semibold py-2 px-4 rounded shadow hover:bg-gray-800">
-//                         Get Blood Now
-//                         </button>
-//                     </div>
-//                 </div>
-//         </div>
-//     );
-// };
-
-// export default Banner;
-
 const Banner = () => {
     return (
         <div className="relative flex flex-col md:flex-row items-center justify-between min-h-[350px] bg-white overflow-hidden">
