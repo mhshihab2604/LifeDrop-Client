@@ -12,6 +12,7 @@ const Home = () => {
                 </Helmet>
             </div>
            <Banner></Banner>
+           <h1>hello welcome</h1>
            <OurMission></OurMission>
            <OurCollaborators></OurCollaborators>
            <GetBlood></GetBlood>
