@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
     return (
         <div className="relative flex flex-col md:flex-row items-center justify-between min-h-[350px] bg-white overflow-hidden">
@@ -31,9 +33,11 @@ const Banner = () => {
                 <p className="text-sm text-gray-600 mb-6 max-w-md mx-auto md:mx-0">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
                 </p>
-                <button className="bg-black text-white font-semibold py-2 px-6 rounded shadow hover:bg-gray-800 transition">
-                    Get Blood Now
-                </button>
+                <Link to="/findBlood">
+                    <button className="bg-black text-white font-semibold py-2 px-6 rounded shadow hover:bg-gray-800 transition">
+                        Get Blood Now
+                    </button>
+                </Link>
             </div>
         </div>
     );

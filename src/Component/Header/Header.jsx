@@ -34,7 +34,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="/find-blood"
+              to="/findBLood"
               className="hover:text-[#B32346] dark:text-gray-800"
             >
               Find Blood
@@ -52,8 +52,8 @@ const Header = () => {
 
         {/* Login Button - Desktop */}
         <div className="hidden lg:flex">
-          <button className="px-6 py-2 rounded bg-[#6A0B37] text-white font-semibold">
-            Login
+          <button className="px-6 py-2 rounded hover:bg-[#6A0B37] border-2 border-[#6A0B37] text-black hover:text-white font-semibold">
+            Join With Us
           </button>
         </div>
 
@@ -77,7 +77,7 @@ const Header = () => {
               <Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
             </li>
             <li>
-              <Link to="/find-blood" onClick={() => setMenuOpen(false)}>Find Blood</Link>
+              <Link to="/findBLood" onClick={() => setMenuOpen(false)}>Find Blood</Link>
             </li>
             <li>
               <Link to="/register" onClick={() => setMenuOpen(false)}>Register Now</Link>
