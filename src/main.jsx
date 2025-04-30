@@ -17,6 +17,7 @@ import Emergency from './Component/Emergency/Emergency.jsx';
 import Register from './Component/Register/Register.jsx';
 import Volunteer from './Component/Register/Volunteer.jsx';
 import Organization from './Component/Register/Organization.jsx';
+import Login from './Component/Login/Login.jsx';
 
 const router = createBrowserRouter([
   
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/emergency",
         element: <Emergency></Emergency>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
       {
         path: "/register",

@@ -51,11 +51,11 @@ const Header = () => {
         </ul>
 
         {/* Login Button - Desktop */}
-        <div className="hidden lg:flex">
+        <Link to="/login">
           <button className="px-6 py-2 rounded hover:bg-[#6A0B37] border-2 border-[#6A0B37] text-black hover:text-white font-semibold">
-            Join With Us
+            Login
           </button>
-        </div>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
